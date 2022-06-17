@@ -17,7 +17,6 @@ text{
     width: auto;
     background-color: rgba(255, 255, 255, 0.9);
     border-radius: 15px;
-    padding: 5px;
 }
 .navbar{
     font-size: smaller;
@@ -34,7 +33,7 @@ text{
 }
 .nav-bg:hover{
     color:black;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.5);
     border-radius:5px;
     color:black;
     height: 15px;
@@ -61,7 +60,6 @@ text{
 }
 .about p {
 background-color: rgba(255, 255, 255, 0.8);
-padding: 10px;
 border-radius: 5px;
 }
 .contacts{
@@ -72,5 +70,7 @@ border-radius: 5px;
     background-color:#2a2b2a;
     min-height: 50px;
     color: white;
-    padding: 10px;
+}
+.btn:hover{
+    background-color: aqua;
 }

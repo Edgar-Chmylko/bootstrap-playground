@@ -19,17 +19,17 @@
                 <ul class="navbar h-100">
                     <li>
                         <div class="nav-bg h-100 p-1">
-                            <a href="#" class="nav-linkas ">About Us</a>
+                            <a href="#about" class="nav-linkas ">About Us</a>
                         </div>
                     </li>
                     <li> 
                         <div class="nav-bg h-100 p-1">
-                            <a href="#" class="nav-linkas ">About Us</a>
+                            <a href="#contacts" class="nav-linkas ">Contacts</a>
                         </div>
                     </li>
                     <li>
                         <div class="nav-bg h-100 p-1">
-                            <a href="#" class="nav-linkas ">About Us</a>
+                            <a href="#faq" class="nav-linkas ">F.A.Q</a>
                         </div>
                     </li>
                 </ul>
@@ -39,7 +39,7 @@
 </div>
 <div class="container-fluid hero">
     <div class="container h-100 d-flex align-items-center justify-content-center">
-        <div class="row hero-body align-items-center justify-content-center">
+        <div class="row hero-body align-items-center justify-content-center p-5">
             <h1 class="display-4 fw-bold col">Lorem ipsum dolor sit amet.</h1>
             <div class="col-4">
                 <p class="lead mb-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit assumenda quae quisquam neque labore, veniam odit alias obcaecati soluta porro maxime sapiente nisi molestias, eos nulla esse doloremque dignissimos aliquid.</p>
@@ -47,7 +47,7 @@
         </div>
     </div>
 </div>
-<div class="container-fluid card-bg ">
+<div class="container-fluid card-bg " id="contacts">
     <div class="container">
         <div class="row">
             <div class="card-group py-2 text-center">
@@ -56,7 +56,7 @@
                     <div class="card-body">
                     <h5 class="card-title ">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
                     </div>
                 </div>
                 <div class="card col-xl-12 w-100">
@@ -64,7 +64,7 @@
                     <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
                     </div>
                 </div>
                 <div class="card col-xl-12 w-100" style="width: 18rem;">
@@ -72,70 +72,96 @@
                     <div class="card-body">
                     <h5 class="card-title">Card title</h5>
                     <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                    <a href="#" class="btn btn-dark">Go somewhere</a>
+                    <a href="#" class="btn btn-outline-dark">Go somewhere</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 </div> 
-<div class="container-fluid about">
+<div class="container-fluid about" id="about">
     <div class="container h-100 d-flex align-items-center about-body justify-content-center">
-        <p class="display-4">Lorem ipsum dolor sit amet.</p>
+        <p class="display-4 p-2">Lorem ipsum dolor sit amet.</p>
     </div>
 </div>
-<div class="container-fluid contacts">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-3">
-            <h4>
-                Lorem ipsum dolor sit amet.
-            </h4>
-            <ul>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Minus delectus temporibus odio mollitia.</li>
-                <li>Veniam deleniti modi nulla ab.</li>
-                <li>Minus sequi aliquam tenetur iure.</li>
-                <li>Esse possimus cum sint iusto.</li>
-            </ul>
+<div class="container-fluid contacts" id="faq">
+    <div class="container p-2 d-flex">
+        <div class="accordion w-25" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ul class="list-unstyled">
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Sit rem ut reiciendis quae!</li>
+                    <li>Voluptatibus distinctio eos odit provident.</li>
+                    <li>Ipsam non repellendus sunt quae?</li>
+                    <li>Eum amet earum in illo?</li>
+                  </ul>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <h4>
-                Lorem ipsum dolor sit amet.
-            </h4>
-            <ol>
-                <li>Lorem ipsum dolor sit amet.</li>
-                <li>Nostrum facilis harum quo odit!</li>
-                <li>Ut tempora esse eveniet ex?</li>
-                <li>Culpa dignissimos natus fugiat voluptatibus?</li>
-                <li>Error dicta veniam ipsa non.</li>
-                <li>Provident accusamus vitae doloremque! Ut.</li>
-            </ol>
+        <div class="accordion w-25" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <ol>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Rem voluptatem eveniet enim hic.</li>
+                    <li>Mollitia maiores qui laudantium placeat.</li>
+                    <li>Eum, facilis. Illo, reprehenderit maiores.</li>
+                    <li>Quasi sint voluptate odit est?</li>
+                    <li>Quod illo cupiditate rem optio.</li>
+                  </ol>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <h4>
-                Lorem ipsum dolor sit amet.
-            </h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum doloremque eius numquam eveniet laborum nam ab aliquam atque ipsam autem?</p>
+        <div class="accordion w-25" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam sit possimus commodi vel voluptates ipsa minus ea exercitationem nemo beatae animi, dolore est! Doloribus, illum.</p>
+                </div>
+              </div>
+          </div>
         </div>
-        <div class="col-md-3">
-            <h4>
-                Lorem ipsum dolor sit amet.
-            </h4>
-            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Asperiores natus quia quo saepe molestiae ratione nostrum nesciunt consequuntur suscipit dicta? Est quo maxime numquam totam?</p>
+        <div class="accordion w-25" id="accordionExample">
+            <div class="accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                  Lorem ipsum dolor sit amet.
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt deleniti iusto magnam accusantium obcaecati perferendis dolorum assumenda saepe. Laudantium incidunt esse nisi quibusdam officia eligendi nemo, harum ratione repudiandae, non velit doloremque ipsa quo eaque?</p>
+                </div>
+              </div>
+          </div>
         </div>
-      </div>
     </div>
 </div>
-<div class="container-fluid footer">
+<div class="container-fluid footer p-2">
     <div class="container">
-        <div class="row justify-content-between align-items-center">
-            <div class="col-8">
+        <div class="d-flex justify-content-between align-items-center">
                 <img src="./assets/images/logo.svg" alt="logo" class="logo">
-            </div>
-            <div class="col">
                 <span>&copy; 2022 BootStrap Playground</span>
-            </div>
         </div>
     </div>
 </div>
