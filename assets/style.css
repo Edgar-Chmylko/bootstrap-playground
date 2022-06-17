@@ -42,8 +42,15 @@ text{
     height: 50vh;
 }
 .about{
-    background-color: #eff9f0;
+    background-image: url("https://picsum.photos/1920/1080");
     height: 40vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about p {
+background-color: rgba(255, 255, 255, 0.8);
+padding: 10px;
+border-radius: 5px;
 }
 .contacts{
     background-color: #ddc8c4;
