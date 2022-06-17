@@ -12,13 +12,12 @@ text{
     background-color:#2a2b2a;
     min-height: 50px;
 }
-.burger{
-    min-height: 50px;
-}
 .logo{
     min-height: 50px;
     width: auto;
-    fill:white;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    padding: 5px;
 }
 .navbar{
     font-size: smaller;
@@ -53,6 +52,6 @@ padding: 10px;
 border-radius: 5px;
 }
 .contacts{
-    background-color: #ddc8c4;
+    background-color: #f8f4e3;
 }
 
