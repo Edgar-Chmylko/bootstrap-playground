@@ -1,0 +1,51 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+text{
+    color:#000501;
+
+}
+.navigation{
+    background-color:#2a2b2a;
+    min-height: 50px;
+}
+.burger{
+    min-height: 50px;
+}
+.logo{
+    min-height: 50px;
+    width: auto;
+    fill:white;
+}
+.navbar{
+    font-size: smaller;
+    font-weight: 600;
+    list-style: none;
+    height: 100%;
+}
+.nav-linkas{
+    text-decoration: none;
+    color:white;
+}
+.nav-linkas-burger{
+    text-decoration: none;
+    color:black;
+}
+.navbar-burger{
+    list-style: none;
+}
+.hero {
+    background-color:#f8f4e3;
+    height: 50vh;
+}
+.about{
+    background-color: #eff9f0;
+    height: 40vh;
+}
+.contacts{
+    background-color: #ddc8c4;
+}
+
